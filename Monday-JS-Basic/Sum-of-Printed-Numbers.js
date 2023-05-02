@@ -1,3 +1,15 @@
+//Write a program that will print all the numbers from 1 to 135 AND the sum
+//of the numbers that have been printed so far. Your output should look similar to this:
+
+//Number is: 0 Sum: 0
+
+//Number is: 1 Sum: 1
+
+//Number is: 2 Sum: 3
+
+//Number is: 3 Sum: 6
+
+
 //Pseudocode
 //1-for loop to print numbers from 1 to 135
 //2-add numbers to var called sum to print the sum of them
@@ -5,9 +17,9 @@
 
 //code
 var sum = 0;
-for(var i =1;i<136 ;i++){
+for(var i =0;i<136 ;i++){
     sum+=i;
-    console.log(sum);
+    console.log(` Number is ${i} : ${sum}`);
 }
 
 
